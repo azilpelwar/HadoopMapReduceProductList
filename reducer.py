@@ -23,5 +23,6 @@ def reducer():
 			salesTotal=0
 		oldKey=thisKey
 		salesTotal += float(thisSale)
+	#Finally print result for Last store from the DB
 	if oldKey!=None:
 		print "{0}\t{1}".format(oldKey,salesTotal)
